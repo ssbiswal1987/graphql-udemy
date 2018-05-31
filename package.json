@@ -1,0 +1,20 @@
+{
+	"name": "users",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"server": "supervisor server.js",
+		"db": "json-server --watch db.json"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.16.3",
+		"express-graphql": "^0.6.12",
+		"graphql": "^0.13.2",
+		"lodash": "^4.17.10",
+		"node-fetch": "^2.1.2"
+	}
+}
